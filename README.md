@@ -1,3 +1,6 @@
+Rails backend for a Twitter Bootstrap, Zurb Foundation & iOS frontend 
+=====================================================================
+
 Getting started log:
 
 installed homebrew
