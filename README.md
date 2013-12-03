@@ -6,4 +6,11 @@ installed rvm
 
 installed rails
 
-about to create project...
+created project artcards
+
+generated scaffold for artist
+
+migrated the db
+
+tested the ‘artists’ app on the rails server
+
