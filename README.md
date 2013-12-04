@@ -17,3 +17,11 @@ migrated the db
 
 tested the ‘artists’ app on the rails server
 
+added bootstrap branch
+
+on the bootstrap branch:
+
+- installed twitter_bootstrap_rails gem (and associated dependencies)
+
+- tested the ‘artists’ app on the rails server with bootstrap
+
