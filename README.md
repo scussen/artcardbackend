@@ -19,6 +19,16 @@ tested the ‘artists’ app on the rails server
 
 added bootstrap branch - see branch for all the bootstrap work :-)
 
-(continuing on master) added image support with paperclip and got the forms working
+(continuing on master)
+
+installed paperclip
+
+installed imagemagik
+
+used paperclip to generate the migrate updates to add the image file_fields to the table
+
+migrated the db
+
+images now working in the artist model
 
 
