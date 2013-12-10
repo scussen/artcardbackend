@@ -1,5 +1,9 @@
 <p id="notice"><%= notice %></p>
 
+<%= image_tag @artist.small_image.url %>
+<%= image_tag @artist.small_image.url(:medium) %>
+<%= image_tag @artist.small_image.url(:thumb) %>
+
 <p>
   <strong>Firstname:</strong>
   <%= @artist.firstname %>
@@ -13,16 +17,6 @@
 <p>
   <strong>Artiststatement:</strong>
   <%= @artist.artiststatement %>
-</p>
-
-<p>
-  <strong>Smallimagename:</strong>
-  <%= @artist.smallimagename %>
-</p>
-
-<p>
-  <strong>Largeimagename:</strong>
-  <%= @artist.largeimagename %>
 </p>
 
 <%= link_to 'Edit', edit_artist_path(@artist) %> |

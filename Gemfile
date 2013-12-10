@@ -49,3 +49,7 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+# Paperclip for image imports
+gem "paperclip", "~> 3.0"
+
