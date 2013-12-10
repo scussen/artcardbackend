@@ -1,5 +1,9 @@
 <p id="notice"><%= notice %></p>
 
+<%= image_tag @artist.small_image.url %>
+<%= image_tag @artist.small_image.url(:medium) %>
+<%= image_tag @artist.small_image.url(:thumb) %>
+
 <p>
   <strong>Firstname:</strong>
   <%= @artist.firstname %>

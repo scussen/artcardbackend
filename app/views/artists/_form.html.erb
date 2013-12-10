@@ -1,4 +1,4 @@
-<%= form_for(@artist) do |f| %>
+<%= form_for @artist, :html => { :multipart => true } do |f| %>
   <% if @artist.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@artist.errors.count, "error") %> prohibited this artist from being saved:</h2>
@@ -31,6 +31,11 @@
     <%= f.label :largeimagename %><br>
     <%= f.text_field :largeimagename %>
   </div>
+  <div class="field">
+    <%= f.label :small_image %><br>
+    <%= f.file_field :small_image %>
+  </div>
+
   <div class="actions">
     <%= f.submit %>
   </div>
