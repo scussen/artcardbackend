@@ -17,3 +17,8 @@ migrated the db
 
 tested the ‘artists’ app on the rails server
 
+added bootstrap branch - see branch for all the bootstrap work :-)
+
+(continuing on master) added image support with paperclip and got the forms working
+
+
