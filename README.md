@@ -41,5 +41,7 @@ installed zurb foundation
 
 tested the ‘artists’ app with foundation
 
+added grid layout and navbar
+
 
 
