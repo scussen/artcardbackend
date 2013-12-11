@@ -41,11 +41,11 @@ images now working in the artist model
 
 (merged master onto this branch)
 
-tested that artist app with images attached
+tested artist app with images attached
 
 generated a twitter bootstrap compatible layout
 
-tried a generate bootstrap themed (bootstrap compatible scaffold view) - didn’t like it so backed it out
+tried a ‘generate bootstrap themed’ (a bootstrap compatible scaffold view) didn’t like it so backed it out
 
 
  
