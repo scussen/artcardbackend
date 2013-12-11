@@ -47,3 +47,6 @@ end
 # Paperclip for image imports
 gem "paperclip", "~> 3.0"
 
+# Foundation!
+gem 'foundation-rails'
+
