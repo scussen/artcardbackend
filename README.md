@@ -1,5 +1,5 @@
-Rails backend for a Twitter Bootstrap, Zurb Foundation & iOS frontend 
-=====================================================================
+Rails backend with a Twitter Bootstrap frontend 
+===============================================
 
 Getting started log:
 
@@ -39,7 +39,7 @@ migrated the db
 
 images now working in the artist model
 
-(merged master onto this branch)
+(merged master onto this branch - bootstrap branch)
 
 tested artist app with images attached
 
