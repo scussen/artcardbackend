@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title><%= content_for?(:title) ? yield(:title) : "foundation-rails" %></title>
+    <title><%= content_for?(:title) ? yield(:title) : "Abiquiú Artcards" %></title>
 
     <%= stylesheet_link_tag    "application" %>
     <%= javascript_include_tag "vendor/modernizr" %>
@@ -12,8 +12,44 @@
   </head>
 
   <body>
+  <nav class="top-bar" data-topbar>
+    <ul class="title-area">
+      <li class="name">
+        <h1><a href="#">Abiquiú Art</a></h1>
+      </li>
+    </ul>
 
-    <%= yield %>
+    <section class="top-bar-section">
+      <!-- Right Nav Section -->
+      <ul class="right">
+        <li class="active"><a href="#">Listing artists</a></li>
+        <li class="has-dropdown">
+          <a href="#">Right Button with Dropdown</a>
+          <ul class="dropdown">
+            <li><a href="#">First link in dropdown</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <!-- Left Nav Section -->
+      <ul class="left">
+        <li><a href="#">Left Nav Button</a></li>
+      </ul>
+    </section>
+    </nav>
+
+
+    <div class="row">
+        <div class="large-9 columns"><%= yield %></div>
+          <div class="large-3 columns"></div>
+            <h2>Art tour</h2>
+            <p>Discover a new world this Columbus Day weekend, October 12th, 13th and 14th, as more than sixty Abiquiú artists open their studios from 10:am to - 5:pm to friends, old and new, during one of the most beautiful times of the year in Northern New Mexico.</p>
+
+            <p>The Abiquiú Studio Tour is a self-guided, driving tour that takes visitors and collectors through the village of Abiquiú and the surrounding Chama River Valley – a landscape of imposing mountains, spectacular rock formations, and the glorious rivers of the Piedra Lumbra basin.</p>
+        </div>
+    </div>
+    
+
     <%= javascript_include_tag "application" %>
   </body>
 </html>

@@ -1,5 +1,5 @@
-Rails backend for a Twitter Bootstrap, Zurb Foundation & iOS frontend 
-=====================================================================
+Rails backend with a Zurb Foundation frontend 
+=============================================
 
 Getting started log:
 
