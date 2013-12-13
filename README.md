@@ -17,7 +17,7 @@ migrated the db
 
 tested the ‘artists’ app on the rails server
 
-added bootstrap branch - see branch for all the bootstrap work :-)
+added bootstrap branch - see branch for all the twitter bootstrap work :-)
 
 (continuing on master)
 
@@ -30,5 +30,7 @@ used paperclip to generate the migrate updates to add the image file_fields to t
 migrated the db
 
 images now working in the artist model
+
+added foundation branch - see branch for all the zurb foundation work :-)
 
 
