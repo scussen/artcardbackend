@@ -31,6 +31,8 @@ migrated the db
 
 images now working in the artist model
 
+merged master onto the bootstrap branch (to get the paperclip and imagmagik updates onto the branch)
+
 added foundation branch - see branch for all the zurb foundation work :-)
 
 
