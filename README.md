@@ -10,9 +10,9 @@ The purpose of the presentation and this repository is to 'quick start' anyone i
 
 Presentation:
 
-- My slide deck for the Dec 11th, 2013 'From Zero to Twitter Bootstrap & Zurb Foundation on a Rails Backend' presentation for the RubyABQ group is here on [Slide Share](http://www.slideshare.net/slideshow/embed_code/29433702)
+- the slide deck for the Dec 11th, 2013 'From Zero to Twitter Bootstrap & Zurb Foundation on a Rails Backend' presentation for the RubyABQ group is here on [Slide Share](http://www.slideshare.net/slideshow/embed_code/29433702)
 
-- The video of the presentation (slides & audio) is is here on [YouTube](http://youtu.be/jbdqa7TRWGU)
+- the video of the presentation (slides & audio) is here on [YouTube](http://youtu.be/jbdqa7TRWGU)
 
 The 'step by step' log of getting started:
 
